@@ -5,6 +5,8 @@ const sass    = require('gulp-sass');
 const babel   = require('gulp-babel');
 // const autoprefixer = require('gulp-autoprefixer');
 // const uglify  = require('gulp-uglify');
+const imagemin = require('gulp-imagemin');
+const pngquant = require('imagemin-pngquant');
 const browserSync = require('browser-sync');
 
 //setting : paths
@@ -14,7 +16,9 @@ const paths = {
   'cssSrc'  : './sass/**/*.scss',
   'cssDist'   : './src/css/',
   'jsSrc' : './src/js/**/*.js',
-  'jsDist': './src/js/'
+  'jsDist': './src/js/',
+  'imgSrc'  : './src/img',
+  'imgDist'  : './src/img',
 }
 
 //gulpコマンドの省略
@@ -67,10 +71,19 @@ task('reload', (done) => {
   done();
 });
 
+task("imagemin", function(){
+    src( paths.imgSrc )
+    .pipe(imagemin(
+        [pngquant({quality: '40-70', speed: 1})]
+    ))
+    .pipe(dest( paths.imgDist ));
+});
+
 //watch
 task('watch', (done) => {
   watch([paths.cssSrc], series('sass', 'reload'));
   watch([paths.jsSrc], series('js', 'reload'));
+  watch([paths.imgDist], series('imagemin'));
   watch([paths.html], series('reload'));
   done();
 });
