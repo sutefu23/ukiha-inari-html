@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header {
+  width: 100%;
+  height: 768px;
+  background: url(../img/main.png) no-repeat center/cover;
+  position: relative;
+}
+
+header h1 {
+  position: relative;
+  text-align: center;
+  height: 100%;
+}
+
+header h1 .logo {
+  position: absolute;
+  margin: auto;
+  padding-right: 2.19619vw;
+  top: 69px;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  width: 91px;
+  height: 482px;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in-out 1s .2s both;
+  animation: fadeIn ease-in-out 1s .2s both;
+}
+
+nav {
+  background: url(../img/bg-nav.png) repeat-x;
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  bottom: 0;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  max-width: 1301.798px;
+  margin: auto;
+  height: 100%;
+  border-left: solid 1px #000;
+}
+
+nav li {
+  display: block;
+  width: calc(100% / 6);
+}
+
+nav li:first-child {
+  border-right: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  border-left: solid 1px rgba(255, 255, 255, 0.5);
+  border-right: solid 1px #000;
+  height: 100%;
+}
+
+nav li a span {
+  padding-top: 20px;
+  display: inline-block;
+  font-size: 2.4rem;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.8) 5px 5px 15px, rgba(0, 0, 0, 0.8) -5px 5px 15px, rgba(0, 0, 0, 0.8) 5px -5px 15px, rgba(0, 0, 0, 0.8) -5px -5px 15px, rgba(0, 0, 0, 0.8) 5px 5px 15px, rgba(0, 0, 0, 0.8) -5px 5px 15px, rgba(0, 0, 0, 0.8) 5px -5px 15px, rgba(0, 0, 0, 0.8) -5px -5px 15px;
+}
+
+nav li a:hover span {
+  text-shadow: black 5px 5px 15px, black -5px 5px 15px, black 5px -5px 15px, black -5px -5px 15px, black 5px 5px 15px, black -5px 5px 15px, black 5px -5px 15px, black -5px -5px 15px;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  background: url(../img/bg-footer.png);
+  height: 250px;
+}
+
+footer .footer-title {
+  padding-top: 35px;
+}
+
+footer .footer-title h2 {
+  font-size: 2.8rem;
+  line-height: 1.714em;
+  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝体", "Yu Mincho", YuMincho, "MS P明朝", "MS PMincho", serif;
+  text-shadow: rgba(51, 51, 51, 0.5) 5px 5px 15px, rgba(51, 51, 51, 0.5) -5px 5px 15px, rgba(51, 51, 51, 0.5) 5px -5px 15px, rgba(51, 51, 51, 0.5) -5px -5px 15px, rgba(51, 51, 51, 0.5) 5px 5px 15px, rgba(51, 51, 51, 0.5) -5px 5px 15px, rgba(51, 51, 51, 0.5) 5px -5px 15px, rgba(51, 51, 51, 0.5) -5px -5px 15px;
+}
+
+footer .footer-icon {
+  margin-top: 25px;
+}
+
+footer .footer-icon li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .footer-icon li + li {
+  margin-left: 28px;
+}
+
+footer small {
+  display: block;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+#gotop {
+  position: fixed;
+  display: block;
+  width: 58px;
+  height: 58px;
+  border: solid 1px #585352;
+  background-color: #fff;
+  opacity: 0.7;
+  z-index: 100;
+  right: 7.17423vw;
+  bottom: 96px;
+}
+
+#gotop:after {
+  position: absolute;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-left: solid 3px #585352;
+  border-top: solid 3px #585352;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: 25px;
+}

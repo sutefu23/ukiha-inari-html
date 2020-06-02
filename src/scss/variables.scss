@@ -1,0 +1,39 @@
+$isMoble:false;
+$baseFontSize:10;
+$baseWidth:1366;//画面の幅
+$menuLength:6;//メニューの個数
+$h1:4.8rem;
+$h2:3.2rem;
+$h3:2.4rem;
+$h4:2rem;
+$font-shino:ro-shino-std, "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+$font-yu-mincho: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+$font-hiragino:"ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝体", "Yu Mincho", YuMincho, "MS P明朝", "MS PMincho", serif;
+$boxShadow:4px 4px 4px 0px rgba(0, 0, 0, 0.3);
+
+@mixin absolute-center($top:0, $left:0, $right:0, $bottom:0){
+  position: absolute;
+  margin: auto;
+  top:$top;
+  left:$left;
+  right: $right;
+  bottom:$bottom;
+}
+
+@function rem($pixels) {
+  @return $pixels / $baseFontSize * 1rem;
+}
+
+@function percent($pixels) {
+  @return ($pixels / $baseWidth ) * 100%;
+}
+
+@function vw($pixels) {
+  @return ($pixels / $baseWidth ) * 100vw;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0}
+
+  100% {opacity: 1}
+}

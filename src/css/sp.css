@@ -1,0 +1,364 @@
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 1.33333vw;
+  }
+  p, a, div, li, dl, input, label, textarea, span {
+    font-size: 3.2rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  h3 {
+    font-size: 3.6rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  label {
+    margin: 5.6rem 0 3.2rem;
+    font-weight: normal;
+  }
+  form {
+    max-width: 100%;
+    width: 100%;
+  }
+  input, textarea {
+    height: 6rem;
+    font-size: 2.4rem;
+    padding: 1.2rem;
+  }
+  textarea {
+    height: 35rem;
+  }
+  .btn {
+    width: 29.6rem;
+    height: 7.3rem;
+    line-height: 7.3rem;
+  }
+  .btn:before, .btn:after {
+    border-width: 2px;
+  }
+  .btn:after {
+    top: -1rem;
+    left: -1rem;
+  }
+  header {
+    background-image: url(../img/main-sp.png);
+    height: 120rem;
+  }
+  header h1 .logo {
+    width: 11.6rem;
+    height: 64.6rem;
+    top: 15rem;
+  }
+  nav {
+    height: 21.8rem;
+    background-size: cover;
+  }
+  nav li a span {
+    padding-top: 2.8rem;
+  }
+  section h1:before {
+    background-image: url(../img/title-symbol-sp.png);
+    width: 5rem;
+    height: 5rem;
+    background-size: contain;
+  }
+  .vertical h1 {
+    text-align: left;
+  }
+  .vertical h1:before {
+    margin-top: -1.2em;
+    margin-right: 0.4rem;
+  }
+  .oriental h1:before {
+    margin-left: -1.2em;
+  }
+  #origin {
+    height: 156rem;
+    padding: 10rem 2.3rem;
+    background-image: url(../img/bg-origin-sp.png);
+    background-size: cover;
+  }
+  #origin .inner {
+    border: none;
+    padding: 0;
+  }
+  #origin .content {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  #origin .content .deities {
+    font-size: 4rem;
+    line-height: 1.5em;
+  }
+  #origin .content .deities span {
+    font-size: 4rem;
+  }
+  #origin .content dl {
+    height: 18em;
+    word-spacing: 2em;
+    margin-right: 2em;
+  }
+  #origin .content dl:nth-child(1) {
+    margin-right: 1em;
+    height: 67.2rem;
+  }
+  #origin .content dl:nth-child(4) {
+    margin-right: -2.2rem;
+  }
+  #origin .content dl:nth-child(n + 4) {
+    margin-top: 4.2rem;
+  }
+  #news {
+    height: 118.8rem;
+    padding: 10rem 2rem;
+  }
+  #news article {
+    height: 77rem;
+    padding: 5rem 3.6rem;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  }
+  #news article time {
+    font-size: 3.6rem;
+  }
+  #news article h3 {
+    margin-right: 1rem;
+    margin-left: 2rem;
+  }
+  #news article p {
+    font-size: 3.2rem;
+  }
+  #news article + article {
+    margin-right: 5rem;
+  }
+  #event {
+    padding: 10rem 2.3rem;
+    height: 236rem;
+    background: url(../img/event-01.png) no-repeat right 2rem top 65.6rem, url(../img/event-02.png) no-repeat right bottom, url(../img/bg-event-sp.png) repeat top/contain;
+  }
+  #event h1 {
+    margin-right: 0;
+  }
+  #event .content {
+    line-height: 1.625em;
+  }
+  #event .inner .content {
+    height: 61rem;
+    margin-top: 0;
+    padding: 2.8rem;
+  }
+  #event .bottom .content {
+    width: 62.8rem;
+    height: 72.2rem;
+    margin-top: 43.4rem;
+    padding: 2.8rem;
+  }
+  #report {
+    height: 420rem;
+    padding: 26rem 2rem 0 8.2rem;
+  }
+  #report .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #report article + article {
+    margin-top: 12rem;
+  }
+  #report article .date {
+    right: -4.2%;
+  }
+  #report article .date:after, #report article .date:before {
+    width: 11.6rem;
+    height: 11.6rem;
+  }
+  #report article .date:before {
+    margin-top: -4.2rem;
+  }
+  #report article .date:after {
+    margin-top: -4.7rem;
+  }
+  #report article .thumb {
+    width: 46.5rem;
+    height: 32.1rem;
+    max-width: 100%;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  }
+  #report article .box {
+    display: block;
+    width: 40.4rem;
+    height: 88.3rem;
+    max-width: 100%;
+    padding: 7rem 3rem;
+    top: -3rem;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #report article .box time {
+    font-size: 3.6rem;
+  }
+  #report article .box h3 {
+    margin: 0 1.5rem 0 3.7rem;
+  }
+  #report article .box p {
+    line-height: 1.3125em;
+    font-weight: normal;
+  }
+  #report article:nth-child(2) .date {
+    left: -1.3%;
+    right: auto;
+  }
+  #report article:nth-child(2) .box {
+    right: -17rem;
+  }
+  #report .btn {
+    display: none;
+  }
+  #access {
+    height: 140rem;
+    padding: 4.2rem 0;
+  }
+  #access h1 {
+    position: absolute;
+    height: 50%;
+  }
+  #access .inner {
+    padding: 5.8rem 1.5rem;
+    border-left: none;
+    border-right: none;
+  }
+  #access .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #access .content .access-info {
+    width: 47rem;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #access .content .access-info dl {
+    margin-right: 1em;
+  }
+  #access .content iframe {
+    padding: 0;
+    width: 100%;
+    height: 45rem;
+  }
+  #opinion {
+    height: 142.8rem;
+    padding: 10rem 6rem 0;
+  }
+  #opinion h1 {
+    padding-bottom: 4rem;
+  }
+  #opinion .btn-submit {
+    margin-top: 8rem;
+  }
+  #sns {
+    height: 54.4rem;
+  }
+  #sns .inner {
+    padding: 12.4rem 7.6rem 10.3rem 8.7rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  #sns .inner .btn {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4.8rem;
+    height: 12rem;
+    line-height: 12rem;
+  }
+  #sns .inner .btn + .btn {
+    margin-top: 8.4rem;
+  }
+  #sns .inner .btn:after {
+    top: -2rem;
+    left: -2rem;
+  }
+  #sns .inner .btn .icon {
+    width: 6.7rem;
+    height: 6.7rem;
+    vertical-align: sub;
+  }
+  #sns .inner .btn .icon img {
+    width: 6.7rem;
+    height: 6.7rem;
+  }
+  footer {
+    height: 34.7rem;
+    background-size: cover;
+  }
+  footer .footer-title {
+    padding-top: 3.5rem;
+  }
+  footer .footer-icon {
+    margin-top: 3.4rem;
+  }
+  footer picture img {
+    width: 5.3rem;
+    height: 5.4rem;
+  }
+  footer small {
+    margin-top: 7.6rem;
+    font-size: 2.4rem;
+  }
+  #gotop {
+    width: 13.6rem;
+    height: 13.6rem;
+    right: 3rem;
+    bottom: 3rem;
+  }
+  #gotop:after {
+    width: 5.9rem;
+    height: 5.9rem;
+    margin-top: 5.2rem;
+    border-width: 0.5rem;
+  }
+  .page #breadcrumbs {
+    font-size: 2.4rem;
+    max-width: 96vw;
+    height: 11.7rem;
+  }
+  .page #breadcrumbs li:first-child:before {
+    content: "";
+    width: 3.4rem;
+    height: 3rem;
+    background-image: url(../img/icon-home-sp.png);
+    background-size: contain;
+    vertical-align: top;
+  }
+  .page .lead {
+    padding: 14rem 3.6rem 10rem;
+  }
+  .page .lead h1 {
+    font-size: 4rem;
+  }
+  .page time {
+    font-size: 2.8rem;
+  }
+  .page .content .inner {
+    padding: 4rem 2.2rem;
+  }
+}
