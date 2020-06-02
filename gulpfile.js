@@ -15,7 +15,7 @@ const browserSync = require('browser-sync');
 const paths = {
   'root'    : './src/',
   'html'    : './src/*.html',
-  'scssSrc'  : './src/scss/*.scss',
+  'scssSrc'  : './src/scss/style.scss',
   'cssSrc'  : './src/css/*.css',
   'cssDist'   : './src/css/',
   'jsSrc' : './src/js-src/*.js',
