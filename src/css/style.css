@@ -1255,10 +1255,14 @@ section h1:before {
     margin-top: 5.2rem;
     border-width: 0.5rem;
   }
+  .page header {
+    height: 21.8rem;
+  }
   .page #breadcrumbs {
     font-size: 2.4rem;
     max-width: 96vw;
     height: 11.7rem;
+    padding-top: 4.5rem;
   }
   .page #breadcrumbs li:first-child:before {
     content: "";

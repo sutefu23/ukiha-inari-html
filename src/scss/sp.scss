@@ -340,10 +340,14 @@
     }
   }
   .page{
+    header{
+      height: 21.8rem;
+    }
     #breadcrumbs{
       font-size: 2.4rem;
       max-width: 96vw;
       height: 11.7rem;
+      padding-top: 4.5rem;
       li:first-child:before{
         content: "";
         width: 3.4rem;
